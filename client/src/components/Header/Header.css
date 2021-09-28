@@ -1,0 +1,92 @@
+.Header1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:white;
+    z-index:100;
+    width: 100%;
+    /* height:70px; */
+    /* padding: 0 16px; */
+    box-shadow: 0 1px 910px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-logo1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color:black;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.2rem;
+    margin-bottom: 6px;
+}
+
+.header__center1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width:fit-content;
+    padding: 3px 20px 3px 15px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.icons1 {
+    color: rgb(46, 43, 43);
+}
+
+.input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 600px;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.header-item1 {
+    display: flex;
+    align-items: center;
+    height:70px;
+}
+
+.header-links1 {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.header-links-mobile1 {
+    display: flex;
+    align-items: center;
+    padding: 1.0rem;
+    border-radius: 4px;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 10px;
+}
+
+.header-links-mobile1:hover{
+    background:#076dda;
+}
+
+.header-links-mobile11 {
+    display: flex;
+    align-items: center;
+    padding: 1.0rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #1888ff;
+    background-color: transparent;
+    border: 1px solid #1888ff;
+    cursor: pointer;
+    height: 10px;
+}
+
+.header-links-mobile11:hover{
+    color:#076dda;
+    border: 1px solid #076dda;
+}

@@ -1,0 +1,21 @@
+.videoCard {
+    margin-bottom: 40px;
+    width:300px;
+    background-color:white;
+    margin:30px;
+    border-radius: 5px;
+}
+
+.videoCard__thumbnail{
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.videoCard__info{
+    font-size:20px;
+    padding: 20px;
+    text-align:center;
+    cursor: pointer;
+}

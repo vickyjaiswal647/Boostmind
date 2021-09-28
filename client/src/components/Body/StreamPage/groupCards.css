@@ -1,0 +1,15 @@
+.groupCard {
+    margin: 80px;
+    /* align-items: center; */
+    margin-left: 100px;
+}
+
+.heading1 {
+    margin:15px;
+    /* margin-bottom: 20px; */
+}
+
+.groupCard__section {
+    display: flex;
+    align-items: center;
+}

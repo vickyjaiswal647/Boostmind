@@ -1,0 +1,45 @@
+.mcq{
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content:center; */
+    /* height:600px;
+    width:90%; */
+    background-color: aqua;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:70px;
+    padding:10px;
+}
+
+.idq{
+    /* border:10px solid white; */
+    border-radius: 10px;
+    background-color:azure;
+    margin:15px;
+}
+
+.question{
+    /* width: 90%; */
+    text-align: left;
+    /* margin:20px; */
+}
+
+.question>p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    padding:20px 20px 0px 20px;
+    font-weight:bold;
+    color:black;
+}
+
+.radio{
+    padding: 20px;
+}
+
+.btn{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

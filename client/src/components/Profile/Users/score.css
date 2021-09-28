@@ -1,0 +1,19 @@
+.score{
+    margin:200px;
+    background-color:bisque;
+    border-radius: 15px;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    padding:80px 150px;
+}
+
+.score>h1{
+    display:flex;
+    justify-content:center;
+}
+
+.btn{
+    width:100%;
+    /* padding-left: 280px; */
+}

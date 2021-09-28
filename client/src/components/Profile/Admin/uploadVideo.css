@@ -1,0 +1,135 @@
+.form-control {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    height: 650px;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(235, 221, 235);
+    
+}
+
+.form-heading {
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+}
+
+.select-semester {
+    margin: 20px;
+}
+
+.semester {
+    color: white;
+    font-weight: bolder;
+    background-color: #4CAF50;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.semester:hover {
+    background-color: #45a049;
+}
+
+#subject {
+    color: white;
+    font-weight: bolder;
+    background-color: #4CAF50;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#subject:hover {
+    background-color: #45a049;
+}
+
+.select-subject {
+    margin: 20px;
+}
+
+.form-input {
+    padding: 10px;
+}
+
+.labell-name {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-upload-file {
+    
+    margin: 20px;
+    height: 50px;
+}
+#file-select {
+    font-weight: bolder;
+}
+
+.input-upload-name {
+    
+    margin: 20px;
+    margin-top: 80px;
+    height: 60px;
+}
+
+.upload-button {
+    width: 25%;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin: 35px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload-button:hover, select {
+    background-color: #45a049;
+}
+
+.fileInput{
+    width: 100%;
+    /* background-color: #4CAF50; */
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+
+  /* input[type=file] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  input[type=file]:hover {
+    background-color: #45a049;
+  } */
